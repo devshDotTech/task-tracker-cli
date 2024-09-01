@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "isDone": false,
+      "inProgress": false,
+      "task": "hello earth and world"
+    },
+    {
+      "id": 2,
+      "task": "hello Asia",
+      "isDone": false,
+      "inProgress": false
+    },
+    {
+      "id": 3,
+      "task": "hello India",
+      "isDone": false,
+      "inProgress": true
+    },
+    {
+      "id": 4,
+      "task": "hello Maharashtra",
+      "isDone": true,
+      "inProgress": false
+    }
+  ]
+}
