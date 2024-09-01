@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
-const filePath = path.join(__dirname, 'tasks.json');
-
+const home = os.homedir();
+const file = ".task-tracker.json";
+const filePath = path.join(home, file);
 //console.log(filePath);
 
 const initFile = () => {
