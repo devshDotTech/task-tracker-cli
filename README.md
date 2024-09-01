@@ -48,9 +48,8 @@ task-tracker list
 ```
 #output
 id: 1   task: hello earth and world              status: not-done
-id: 2   task: hello Asia                         status: not-done
+id: 2   task: hello Asia                         status: done
 id: 3   task: hello India                        status: in-progress
-id: 4   task: hello Maharashtra                  status: done
 
 ```
 
